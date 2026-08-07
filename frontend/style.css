@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#101820;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+
+.container{
+    width:420px;
+    background:#1b263b;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+}
+
+input{
+    width:90%;
+    padding:12px;
+    margin-top:20px;
+    border-radius:8px;
+    border:none;
+}
+
+button{
+    margin-top:20px;
+    padding:12px 25px;
+    background:#00c853;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#00e676;
+}
+
+#result{
+    margin-top:25px;
+    font-size:22px;
+    font-weight:bold;
+}
+.genuine-badge{
+    background:#2ecc71;
+    color:white;
+    padding:10px 24px;
+    border-radius:30px;
+    font-weight:bold;
+    display:inline-block;
+}
+.fake-badge{
+    background:#e74c3c;
+    color:white;
+    padding:10px 24px;
+    border-radius:30px;
+    font-weight:bold;
+    display:inline-block;
+}
+.notfound-badge{
+    background: #34495e;
+    color:white;
+    padding:10px 24px;
+    border-radius:30px
+    font-weight:bold;
+    display:inline-block;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
